@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Varsha S - Web Developer</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #ffffff; /* White background */
+            color: #000000; /* Black text */
+        }
+        .container {
+            max-width: 800px;
+            margin: 20px auto;
+            background: #ffffff; /* White background */
+            display: grid;
+            grid-template-columns: 1fr 2fr;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+        }
+        .sidebar {
+            background: #333333; /* Mild black background */
+            color: #ffffff; /* White text */
+            padding: 20px;
+        }
+        .main-content {
+            padding: 20px;
+            background-color: #ffffff; /* White background */
+            color: #000000; /* Black text */
+        }
+        h1, h2 {
+            color: #ffffff; /* White headings in sidebar */
+        }
+        h1 {
+            font-size: 2.2em;
+            margin-bottom: 10px;
+            font-weight: 600;
+        }
+        h2 {
+            font-size: 1.4em;
+            margin-bottom: 15px;
+            border-bottom: 2px solid #ffffff; /* White border for headings */
+            padding-bottom: 5px;
+            font-weight: 500;
+        }
+        .contact a {
+            text-decoration: none;
+            color: #ffffff; /* White links */
+            font-weight: 500;
+        }
+        .contact a:hover {
+            text-decoration: underline;
+        }
+        .section {
+            margin-bottom: 25px;
+        }
+        .skills ul, .languages ul, .area-of-interest ul {
+            list-style: none;
+            padding: 0;
+        }
+        .skills li, .languages li, .area-of-interest li {
+            display: inline-block;
+            background: #666666; /* Darker grey background for skills and interests */
+            color: #ffffff; /* White text */
+            padding: 8px 15px;
+            margin: 5px;
+            font-size: 0.9em;
+        }
+        .education p, .projects p, .internship p, .certifications p {
+            margin: 5px 0;
+            line-height: 1.6;
+            color: #333333; /* Dark gray for text */
+        }
+        .education strong, .projects strong, .internship strong, .certifications strong {
+            color: #000000; /* Black for strong text */
+        }
+        .main-content h2 {
+            color: #000000; /* Black headings in main content */
+            border-bottom: 2px solid #000000; /* Black border for headings */
+        }
+        @media (max-width: 600px) {
+            .container {
+                grid-template-columns: 1fr;
+            }
+            h1 {
+                font-size: 2em;
+            }
+            h2 {
+                font-size: 1.3em;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <!-- Sidebar -->
+        <div class="sidebar">
+            <h1>Varsha S</h1>
+            <h2>Web Developer</h2>
+            <div class="contact">
+                📞 +91 9345919454<br>
+                📧 <a href="mailto:varshasoundar7@gmail.com">varshasoundar7@gmail.com</a><br>
+                🔗 <a href="https://www.linkedin.com/in/varsha-s" target="_blank">LinkedIn</a><br>
+                🔗 <a href="https://leetcode.com/varshh_7" target="_blank">LeetCode</a><br>
+                🔗 <a href="https://github.com/varshh7" target="_blank">GitHub</a>
+            </div>
+
+            <div class="section skills">
+                <h2>Skills</h2>
+                <p><strong>Languages:</strong> Python, Java, C, JavaScript, TypeScript</p>
+                <p><strong>Technical Skills:</strong> React, Machine Learning, Git and GitHub</p>
+                <p><strong>Soft Skills:</strong> Leadership, Communication, Problem Solving</p>
+            </div>
+
+            <div class="section languages">
+                <h2>Languages</h2>
+                <ul>
+                    <li>Tamil</li>
+                    <li>English</li>
+                    <li>Hindi</li>
+                </ul>
+            </div>
+
+            <div class="section area-of-interest">
+                <h2>Area of Interest</h2>
+                <ul>
+                    <li>Web Development</li>
+                    <li>Deep Learning</li>
+                    <li>Machine Learning</li>
+                </ul>
+            </div>
+        </div>
+
+        <!-- Main Content -->
+        <div class="main-content">
+            <div class="section">
+                <h2>Summary</h2>
+                <p>Passionate Web Developer with experience in building responsive and user-friendly web applications using modern frameworks. Skilled Full Stack Developer with expertise in front-end technologies like React and back-end development with Node.js. Experienced in integrating machine learning models to create intelligent applications. Passionate about building scalable, user-friendly solutions and eager to contribute to a dynamic development environment.</p>
+            </div>
+
+            <div class="section education">
+                <h2>Education</h2>
+                <p><strong>Artificial Intelligence and Machine Learning</strong><br>
+                7.94/10.00 - 2024*<br>
+                Bachelor, Kongu Engineering College - Erode, Tamil Nadu, India</p>
+                
+                <p><strong>HSC</strong> - 89.8% - 2022<br>
+                Bharani Vidhyalaya Secondary School, Tamil Nadu, India</p>
+                
+                <p><strong>SSLC</strong> - 87.8% - 2020<br>
+                Bharani Vidhyalaya Secondary School, Tamil Nadu, India</p>
+            </div>
+
+            <div class="section projects">
+                <h2>Projects</h2>
+                <p><strong>Skin Disease Prediction</strong><br>
+                Developed a deep learning model to identify various skin diseases from images. Utilized convolutional neural networks (CNNs) for image classification, achieving high accuracy in detecting different skin conditions, aiding dermatologists in diagnosis and treatment.</p>
+                
+                <p><strong>Job Portal Website</strong><br>
+                Designed and developed a job portal website using React.js, Node.js, and MongoDB. Implemented features like job postings, applications, user authentication, and a search/filter system to connect job seekers with recruiters efficiently.</p>
+            </div>
+
+            <div class="section internship">
+                <h2>Internship</h2>
+                <p><strong>Cloud Computing Intern | May 2024 – July 2024</strong><br>
+                Completed an internship at Smarted Innovation focused on cloud computing. Gained hands-on experience in deploying applications on cloud platforms, managing cloud storage, and optimizing computing resources for scalability and efficiency.</p>
+            </div>
+
+            <div class="section certifications">
+                <h2>Certifications</h2>
+                <p><strong>MongoDB Associate Developer</strong></p>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
